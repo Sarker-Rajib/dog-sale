@@ -35,17 +35,22 @@ li {
   max-width: 480px;
   margin: auto;
 }
+
 .all-wrapper .nav-link {
   color: #fff;
   font-size: 20px;
   padding-left: 30%;
+  font-weight: bold;
 }
+
 .all-wrapper .nav-link.odd {
   background: #178b49;
 }
+
 .all-wrapper .nav-link.even {
   background: #008037;
 }
+
 .all-wrapper .nav-link:hover {
   background: #000;
 }
@@ -60,22 +65,25 @@ li {
 .cho-option {
   position: relative;
 }
+
 .cho-option .select-m {
   background: #ff914d !important;
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
+  font-size: 22px;
 }
+
 .cho-option::after {
   content: "";
   position: absolute;
-  top: 15%;
+  top: 35%;
   right: 20px;
   z-index: 999;
-  height: 15px;
-  width: 15px;
-  transform: rotate(45deg);
-  border-right: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #000000;
 }
 
 .btn-search {
@@ -87,6 +95,7 @@ li {
   background: #ff914d;
   color: black;
 }
+
 .btn-post:hover {
   background: #f57424;
 }
@@ -97,6 +106,7 @@ li {
   background: #ff914d;
   color: black;
 }
+
 .btn-post1:hover {
   background: #f57424;
 }
@@ -105,6 +115,7 @@ li {
   background: #88a2f3;
   color: black;
 }
+
 .btn-post-ad:hover {
   background: #6d90f8;
 }
@@ -115,6 +126,7 @@ li {
   background-color: #88a2f3;
   color: black;
 }
+
 .btn-post-ad1:hover {
   background: #6d90f8;
 }
@@ -152,6 +164,9 @@ li {
   color: #000;
   font-size: 20px;
 }
+
 .footer .f-link:hover {
   color: #1cd1b3;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

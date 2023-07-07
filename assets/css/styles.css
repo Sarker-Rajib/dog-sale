@@ -57,10 +57,25 @@ li {
   top: 0;
 }
 
-.select-m {
+.cho-option {
+  position: relative;
+}
+.cho-option .select-m {
   background: #ff914d !important;
   color: white;
   position: relative;
+}
+.cho-option::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 20px;
+  z-index: 999;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .btn-search {

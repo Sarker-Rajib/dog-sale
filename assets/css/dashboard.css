@@ -1,4 +1,4 @@
-.d-btn{
+.d-btn {
     background: #40a069;
     width: 100%;
     border-radius: 15px;
@@ -8,34 +8,52 @@
     font-size: 20px;
 }
 
-.d-btn:hover{
+.d-btn:hover {
     background: #97caad;
-    border-color:#14ad56;
+    border-color: #14ad56;
 }
 
-.d-btn.active{
+.d-btn.active {
     background: #97caad;
-    border-color:#97caad;
+    border-color: #97caad;
 }
-.d-btn span{
+
+.d-btn span {
     display: inline-block;
     background: #fff;
     width: 40px;
     margin: 0 10px;
 }
 
-label{
+label {
     font-weight: bold;
     font-size: 14px;
     padding-bottom: 3px;
 }
 
-input{
+input {
     width: 100%;
     border: none;
     padding: 5px;
 }
 
-.wrap p{
+.wrap p {
     font-size: 20px;
+}
+
+select {
+    border-radius: 0px !important;
+}
+
+.op-select::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    z-index: 999;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000000;
 }

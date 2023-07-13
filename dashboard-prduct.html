@@ -116,15 +116,26 @@
         </div>
       </div>
 
-      <div class="search mt-3 py-3" style="background: #47a36e;">
-        <div class="container">
+      <div class="container">
+        <div class="search mt-3 p-3" style="background: #47a36e;">
           <div class="row justify-content-center">
             <div class="col-md-6 col-xl-4">
-              <p class="text-center">Show <span class="px-2 bg-light">2</span>Entries</p>
-              <div class="d-flex pt-2 align-items-center">
-                <p class="me-2">Search:</p>
-                <input type="text">
-              </div>
+              <p class="text-center p-2">Show <span class="px-2 bg-light mx-1">2</span>Entries</p>
+              <form>
+                <div class="d-flex align-items-center position-relative op-select">
+                  <select name="" id="" class="border-0 w-100 form-control p-1">
+                    <option value="">Select Status</option>
+                    <option value="">Select 2</option>
+                    <option value="">Select 3</option>
+                  </select>
+                </div>
+                <div class="d-flex pt-2 align-items-center">
+                  <input type="text" placeholder="Add title / Add id">
+                </div>
+                <div class="text-center pt-3">
+                  <button class="btn" style="background: #ff914d; border-radius: 115px;">Search</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -141,30 +152,29 @@
                 <div class="row">
                   <h5 class="text-center pb-3">
                     Title: Poochon for sale Galway
-                    </h4>
+                  </h5>
 
-                    <div class="row align-items-center">
-                      <div class="col-6">
-                        <p>
-                          Ad type: Sale
-                        </p>
-                        <p>
-                          Date: 29/11/22
-                        </p>
-                        <p>
-                          Views: 268
-                        </p>
-                        <div class="text-center pt-2">
-                          <button class="btn" style="background: #ff914d;border-radius: 20px;">
-                            <img src="assets/images/sh.png" alt="share" style="padding: 0px 8px; max-width: 40px;">
-                            Share</button>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <img class="img-fluid" src="assets/images/biKu.png" alt="kid">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <p>
+                        Ad type: Sale
+                      </p>
+                      <p>
+                        Date: 29/11/22
+                      </p>
+                      <p>
+                        Views: 268
+                      </p>
+                      <div class="pt-2">
+                        <button class="btn w-100" style="background: #ff914d;border-radius: 20px;">
+                          <img src="assets/images/sh.png" alt="share" style="max-width: 25px; margin-right: 5px;">
+                          Share</button>
                       </div>
                     </div>
-
+                    <div class="col-6">
+                      <img class="img-fluid" src="assets/images/biKu.png" alt="kid">
+                    </div>
+                  </div>
                 </div>
 
                 <p class="pt-3">
@@ -174,7 +184,7 @@
                   Microchip: <br>
                 </p>
 
-                <p class="pt-2" style="color: #e7423c;">Action :</p>
+                <p class="pt-2" style="color: #e7423c; font-weight: bold;">Action :</p>
 
                 <div class="d-flex">
                   <button class="btn"><img style="max-width: 30px;" src="assets/images/bin.png" alt="e"></button>
@@ -189,9 +199,9 @@
         <div class="text-center pt-3">
           <p>Showing 1 to 2 of 2 entries</p>
           <div class="d-flex align-items-center justify-content-center">
-            <button class="btn">Previous</button>
+            <button class="btn" style="font-weight: bold;">Previous</button>
             <span style="background: #ffffff;padding-inline: 10px;;display: inline-block;">1</span>
-            <button class="btn">Next</button>
+            <button class="btn" style="font-weight: bold;">Next</button>
           </div>
         </div>
       </div>

@@ -12,8 +12,7 @@
 </head>
 
 <body>
-  <div class="all-wrapper">
-    <header style="padding-bottom: 5px;;background-color: #47a36e !important">
+    <header class="header" style="padding-bottom: 5px; background-color: #47a36e !important">
       <div class="container">
         <nav class="">
           <div class="d-flex justify-content-between align-items-center">
@@ -31,7 +30,7 @@
             </button>
           </div>
 
-          <div class="row g-4 pt-2 pb-3" style="margin-inline: 0px;">
+          <div class="row g-4 pt-2 pb-3 d-md-none" style="margin-inline: 0px;">
             <div class="col-6 ps-0">
               <button class="w-100 btn btn-post-ad1 p-1 rounded-4" style="font-size: 20px;">
                 <img src="assets/images/Picture3.png" width="24px" height="24px" alt="no" /> Login
@@ -72,472 +71,522 @@
       </div>
     </header>
 
-    <div class="pt-4 mb-4 container" style="background: #d9ece1">
-      <h1 class="text-center pb-3" style="font-weight: bolder; font-size: 30px;">
-        Search Puppies & Dogs <br> For Sale & Stud In Ireland
-      </h1>
+    <div class="search">
+      <div class="container">
+        <div class="pt-4 mb-4" style="background: #d9ece1">
+          <h1 class="text-center pb-3" style="font-weight: bolder; font-size: 30px;">
+            Search Puppies & Dogs <br class="d-block d-lg-none"> For Sale & Stud In Ireland
+          </h1>
 
-      <div>
-        <form>
-          <div class="pb-2 cho-option">
-            <select class="form-select select-m">
-              <option value="1">Ad type</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-          </div>
-          <div class="pb-2 cho-option">
-            <select class="form-select select-m">
-              <option value="1">Select breed</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-          </div>
-          <div class="pb-2 cho-option">
-            <select class="form-select select-m">
-              <option value="1">Either gender</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-          </div>
-          <div class="pb-2 cho-option">
-            <select class="form-select select-m">
-              <option value="1">All counties</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-          </div>
-          <div class="pb-2 cho-option">
-            <select class="form-select select-m">
-              <option value="1">Sort by</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-          </div>
-        </form>
-      </div>
-
-      <div class="row py-4">
-        <div class="col-4">
-          <button class="btn w-100" style="background: #008057b4; font-size: 20px; border-radius: 20px;">Search</button>
-        </div>
-        <div class="col-8 pe-3">
-          <button class="btn w-100" style="background: #5770ffa2; font-size: 20px; border-radius: 20px;">
-            Post your own ad
-            <img src="assets/images/paw.png" width="24px" alt="SVG Icon" />
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="dog-crds">
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for sale</h4>
-            <button class="btn bg-dark text-white px-4" style="border-radius: 20px; font-size: 20px;">Video <img
-                src="assets/images/camera.png" alt="s"></button>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b> Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div class="pt-3">
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+          <div class="row justify-content-center g-2">
+            <div class="col-md-6 col-xl-2">
+              <div class="pb-2 cho-option">
+                <select class="form-select select-m">
+                  <option value="1">Ad type</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-2">
+              <div class="pb-2 cho-option">
+                <select class="form-select select-m">
+                  <option value="1">Select breed</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-2">
+              <div class="pb-2 cho-option">
+                <select class="form-select select-m">
+                  <option value="1">Either gender</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-2">
+              <div class="pb-2 cho-option">
+                <select class="form-select select-m">
+                  <option value="1">All counties</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-2">
+              <div class="pb-2 cho-option">
+                <select class="form-select select-m">
+                  <option value="1">Sort by</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
               </div>
             </div>
           </div>
 
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for sale</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-            <img class="vip-seal" width="60px" src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png"
-              alt="no" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div class="pt-3">
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+          <div class="row py-4 justify-content-center">
+            <div class="col-md-7 col-xl-4">
+              <div class="row">
+                <div class="col-4">
+                  <button class="btn w-100"
+                    style="background: #008057b4; font-size: 20px; border-radius: 20px;">Search</button>
+                </div>
+                <div class="col-8 pe-3">
+                  <button class="btn w-100" style="background: #5770ffa2; font-size: 20px; border-radius: 20px;">
+                    Post your own ad
+                    <img src="assets/images/paw.png" width="24px" alt="SVG Icon" />
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for sale</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div>
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-              <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
-                class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
-                <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
-                  Registered</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for sale</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-            <img class="vip-seal" width="60px" src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png"
-              alt="no" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div>
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-              <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
-                class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
-                <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
-                  Registered</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #f4bf1e6c">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for sale</h4>
-            <button class="btn bg-dark text-white px-4" style="border-radius: 20px; font-size: 20px;">Video <img
-                src="assets/images/camera.png" alt="s"></button>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-            <p class="sale-tag">FEATURED AD</p>
-            <img class="vip-seal" width="60px" src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png"
-              alt="no" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div>
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-              <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
-                class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
-                <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
-                  Registered</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-      <!--  -->
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for stud</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div class="pt-3">
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for stud</h4>
-            <button class="btn bg-dark text-white px-4" style="border-radius: 20px; font-size: 20px;">Video <img
-                src="assets/images/camera.png" alt="s"></button>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div>
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-              <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
-                class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
-                <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
-                  Registered</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for stud</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-            <img class="vip-seal" width="60px" src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png"
-              alt="no" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div class="pt-3">
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card border-0 mb-4">
-        <div class="card-body" style="background: #d9ece1">
-          <div class="top pb-2 d-flex justify-content-between">
-            <h4 class="fs-2">Dogs for stud</h4>
-          </div>
-
-          <div class="image position-relative">
-            <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
-            <img class="vip-seal" width="60px" src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png"
-              alt="no" />
-          </div>
-
-          <div class="p-3">
-            <h5 class="card-title fs-4" style="font-weight: bold;">
-              Purebred Golden retriever <br>
-              Puppied For Sale
-            </h5>
-            <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
-            <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
-            <span class="card-text"><b>Location:</b> Dongel</span><br />
-            <p class="card-text fs-4 text-success">Price: €600</p>
-
-            <div class="d-flex justify-content-between align-items-end">
-              <div>
-                <a href="#" class="btn"
-                  style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
-                  ad</a>
-                <a href="#" class="btn"
-                  style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
-              </div>
-              <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
-                class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
-                <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
-                  Registered</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
-            <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
-              367</span>
-            <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" /> January
-              13,2023</span>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="footer" style="background:#d9ece1">
+    <div class="container">
+      <div class="dog-crds">
+        <div class="row">
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for sale</h4>
+                  <button class="btn bg-dark text-white px-2" style="border-radius: 20px; font-size: 20px;">Video <img
+                      src="assets/images/camera.png" alt="s"></button>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b> Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div class="pt-3">
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for sale</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                  <img class="vip-seal" width="60px"
+                    src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png" alt="no" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div class="pt-3">
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for sale</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div>
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                    <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
+                      class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
+                        Registered</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for sale</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                  <img class="vip-seal" width="60px"
+                    src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png" alt="no" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div>
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                    <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
+                      class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
+                        Registered</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #f4bf1e6c">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for sale</h4>
+                  <button class="btn bg-dark text-white px-2" style="border-radius: 20px; font-size: 20px;">Video <img
+                      src="assets/images/camera.png" alt="s"></button>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                  <p class="sale-tag">FEATURED AD</p>
+                  <img class="vip-seal" width="60px"
+                    src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png" alt="no" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div>
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                    <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
+                      class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
+                        Registered</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for stud</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div class="pt-3">
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for stud</h4>
+                  <button class="btn bg-dark text-white px-2" style="border-radius: 20px; font-size: 20px;">Video <img
+                      src="assets/images/camera.png" alt="s"></button>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div>
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                    <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
+                      class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
+                        Registered</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for stud</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                  <img class="vip-seal" width="60px"
+                    src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png" alt="no" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div class="pt-3">
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 px-0 px-md-2">
+            <div class="card border-0 mb-4">
+              <div class="card-body" style="background: #d9ece1">
+                <div class="top pb-2 d-flex justify-content-between">
+                  <h4 class="fs-2">Dogs for stud</h4>
+                </div>
+
+                <div class="image position-relative">
+                  <img src="assets/images/Picture6.png" class="card-img-top" alt="Product 2" />
+                  <img class="vip-seal" width="60px"
+                    src="assets/images/Screenshot_2023-06-24_154909-removebg-preview.png" alt="no" />
+                </div>
+
+                <div class="p-3">
+                  <h5 class="card-title fs-4" style="font-weight: bold;">
+                    Purebred Golden retriever <br>
+                    Puppied For Sale
+                  </h5>
+                  <span class="card-text"><b>Age:</b> 1 year, 6months, 22 days</span><br />
+                  <span class="card-text"><b>Gender:</b>Males 2, Females 3</span><br />
+                  <span class="card-text"><b>Location:</b> Dongel</span><br />
+                  <p class="card-text fs-4 text-success">Price: €600</p>
+
+                  <div class="d-flex justify-content-between align-items-end labello">
+                    <div>
+                      <a href="#" class="btn"
+                        style="background-color: #ff914d; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">View
+                        ad</a>
+                      <a href="#" class="btn"
+                        style="background-color: #f4c01e; font-size: 20px; display: inline-block; border-radius: 20px; min-width: 80px">Share</a>
+                    </div>
+                    <div style="background: #008037; width: 80px;height: 80px;border: 5px solid #f4c01e;"
+                      class="rounded rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <p class="text-center" style="font-size: 14px;margin-top: -10px;">I.K.C <br>
+                        Registered</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between p-3 mt-2" style="background-color: #008037bd">
+                  <span style="font-size: 17px;"><img src="assets/images/pic12.png" width="25px" alt="SVG Icon" /> Views
+                    367</span>
+                  <span style="font-size: 17px;"><img src="assets/images/Pic13.png" width="25px" alt="SVG Icon" />
+                    January
+                    13,2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-5" style="background:#d9ece1">
       <div class="py-4"></div>
       <div style="background: url(assets/images/bg-f.png) no-repeat top left/cover;">
         <div class="py-5"></div>
+        <div class="py-0 py-xxl-5"></div>
+        <div class="py-0 py-xl-5"></div>
         <div class="container">
           <div class="row">
             <div class="col-5">
@@ -575,20 +624,19 @@
               </ul>
             </div>
 
-            <div class="col-7">
-              <img class="img-fluid w-100" src="assets/images/footer-removebg-preview.png" alt="Product 1" />
+            <div class="col-7 text-end">
+              <img class="img-fluid" src="assets/images/footer-removebg-preview.png" alt="Product 1" />
             </div>
           </div>
         </div>
         <div class="bottom pt-3 pb-4">
-          <img class="img-fluid w-100 my-3" src="assets/images/dog_foot-removebg-preview.png" alt="dfr">
+          <img class="img-fluid w-100 my-3 d-md-none" src="assets/images/dog_foot-removebg-preview.png" alt="dfr">
           <p class="m-0 text-center" style="font-size: 18px;">
             Copyright 2023 © DogsForSaleIreland, <br> All Rights Reserved.
           </p>
         </div>
       </div>
     </footer>
-  </div>
 
 
   <script>

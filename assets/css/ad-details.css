@@ -1,0 +1,92 @@
+.title {
+    background: #ff914d;
+    padding: 5px 0;
+}
+
+.stock .l-td {
+    width: 40%;
+    background: #a2d0b5;
+    padding: 15px 10px;
+    border-bottom: 3px solid #d8ebe0;
+}
+
+.stock .l-td.sk1 {
+    background: #a9d7e4;
+}
+
+.stock .l-td.pnk1 {
+    background: #e1c9d9;
+}
+
+.stock .r-td.sk2 {
+    background: #96cee5;
+}
+
+.stock .r-td.pnk2 {
+    background: #e5bcd6;
+}
+
+.stock .r-td.red {
+    background: #df534c;
+}
+
+.stock .r-td {
+    width: 60%;
+    background: #8cc5a4;
+    padding: 15px 10px;
+    border-bottom: 3px solid #d8ebe0;
+    border-left: 1px solid #ffffff80;
+}
+
+.microchip-info .td1,
+.microchip-info .td2,
+.microchip-info .td4,
+.microchip-info .td3 {
+    border-bottom: 3px solid #d8ebe0;
+}
+
+.microchip-info .td1,
+.microchip-info .td3 {
+    padding: 10px 0;
+    background: #84c19e;
+    border-bottom: 3px solid #d8ebe0;
+}
+
+.microchip-info .tdp {
+    background: #deb8d0;
+}
+
+.microchip-info .tdg {
+    background: #b1e0aa;
+}
+
+.microchip-info .tdsk {
+    background: #8fcadf;
+}
+
+.microchip-info .tdred {
+    background: #f55452;
+}
+
+.tips .wrapper li {
+    text-align: justify;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+.contact .btn {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.contact .button-call {
+    background: #ff914d;
+}
+
+.contact .button-message {
+    background: #40a069;
+}
+
+.modal .modal-body p {
+    text-align: justify;
+}

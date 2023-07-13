@@ -1,0 +1,41 @@
+.d-btn{
+    background: #40a069;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.d-btn:hover{
+    background: #97caad;
+    border-color:#14ad56;
+}
+
+.d-btn.active{
+    background: #97caad;
+    border-color:#97caad;
+}
+.d-btn span{
+    display: inline-block;
+    background: #fff;
+    width: 40px;
+    margin: 0 10px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+
+.wrap p{
+    font-size: 20px;
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/paw.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/add-options.css">
+  <title>Dog Sale</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header" style="padding-bottom: 5px; background: #47a36e !important">
+    <div class="container">
+      <nav class="">
+        <div class="d-flex justify-content-between align-items-center">
+          <button class="py-2 btn btn-post d-flex align-items-center" style="border-radius: 15px;">
+            <span class="me-2" style="color: black;">Post</span>
+            <img src="assets/images/Picture4.png" width="24px" height="24px" alt="no" />
+          </button>
+
+          <img width="180px" src="assets/images/Screenshot_2023-06-24_151017-removebg-preview.png" alt="no" />
+
+          <button class="navbar-toggler border-0" class="navbar-toggler" id="trigger">
+            <img src="assets/images/Picture1.png" width="50px" height="40px" alt="no img" />
+            <br>
+            <span>Menu</span>
+          </button>
+        </div>
+
+        <div class="row g-4 pt-2 pb-3 d-md-none" style="margin-inline: 0px;">
+          <div class="col-6 ps-0">
+            <button class="w-100 btn btn-post-ad1 p-1 rounded-4" style="font-size: 20px;">
+              <img src="assets/images/Picture3.png" width="24px" height="24px" alt="no" /> Login
+            </button>
+          </div>
+          <div class="col-6 pe-0">
+            <button class="navbar-brand w-100 btn btn-post1 p-1 rounded-4" style="font-size: 20px;">
+              <img src="assets/images/Picture2.png" width="24px" height="24px" alt="no" /> SignUp
+            </button>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link odd" href="#">
+                <img src="assets/images/dogi.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                For Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link even" href="#">
+                <img src="assets/images/paww.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                For Stud</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link odd" href="#">
+                <img src="assets/images/exit.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link even" href="#">
+                <img src="assets/images/r.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main style="background: #d8ebe0; margin: 0;">
+    <!-- first display -->
+    <div class="top-f-section">
+      <h3 class="title text-center py-2 mb-3" style="background: #ff914d;">
+        <img style="max-width: 40px;" src="assets/images/black-dog.png" alt="qqw">
+        New Dog For Sale Ad
+      </h3>
+      <div class="container">
+        <p style="text-align: justify; padding: 10px;font-size: 20px;line-height: 1.25;"><strong>Please note</strong>
+          that all fields
+          below with the <span style="color: #E52D27;">red Asterix
+            *</span> are mandatory and need to be filled
+          in as this is part of the ad approval process</p>
+      </div>
+    </div>
+
+    <div class="options">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Dogs name: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="text" placeholder="Dogs name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Price: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="text" placeholder="Price" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Breed: <span style="color: #E52D27;">*</span></label>
+              <div class="f-select">
+                <select name="" id="" class="w-100 border-0 p-1">
+                  <option value="">Breed</option>
+                  <option value="">Breed 1</option>
+                  <option value="">Breed 2</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Height: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="text" placeholder="Height in CMS or Inches" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Temperment: <span style="color: #E52D27;">*</span></label>
+              <div class="f-select">
+                <select name="" id="" class="w-100 border-0 p-1">
+                  <option value="">Choose Temperment</option>
+                  <option value="">Temperment 1</option>
+                  <option value="">Temperment 2</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">D.O.B: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="date" placeholder="Temperment" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Country of origin: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="text" placeholder="Enter the Country" required>
+
+              <p class="pt-2">Enter the <strong>Country</strong> where your Dog/Puppies were born</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Location: <span style="color: #E52D27;">*</span></label>
+              <input class="w-100 p-1" type="text" placeholder="Location" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">County: <span style="color: #E52D27;">*</span></label>
+              <div class="f-select">
+                <select name="" id="" class="w-100 border-0 p-1">
+                  <option value="">Leitrim</option>
+                  <option value="">opt 1</option>
+                  <option value="">opt 2</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+          <label style="font-weight: bold;">Microchip details: <span style="color: #E52D27;">*</span></label>
+
+          <p class="p-2 bg-light mb-3" style="text-align: justify;">Please choose the database your dog/puppies are
+            registered with as It is now required by law that every dog/puppy must be fully registered with an approved
+            database eg Animark, IKC, Fido or ICC prior to being
+            advertised for sale and be visable on europetnet.com
+          </p>
+
+          <div class="row">
+            <div class="col-md-6 py-md-5">
+              <div class="f-select">
+                <select name="" id="" class="w-100 border-0 p-1">
+                  <option value="">Fido</option>
+                  <option value="">opt 1</option>
+                  <option value="">opt 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="my-3">
+                <label style="font-weight: bold;">Microchip numbers: <span style="color: #E52D27;">*</span></label>
+                <input class="w-100 p-1" type="text" placeholder="Enter microchip number" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="my-3 my-md-0">
+                <label style="font-weight: bold;">Gender: <span style="color: #E52D27;">*</span></label>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-flex align-items-center">
+                      <p class="me-2">Dog/Male</p>
+                      <input type="radio" name="gender" value="" />
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-flex align-items-center">
+                      <p class="me-2">Bitch/Female </p>
+                      <input type="radio" name="gender" value="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label style="font-weight: bold;">Color: <span style="color: #E52D27;">*</span></label>
+                <div class="f-select">
+                  <select name="" id="" class="w-100 border-0 p-1">
+                    <option value="">Brindle</option>
+                    <option value="">opt 1</option>
+                    <option value="">opt 2</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <button class="btn mb-2 px-3 d-flex align-items-center"
+            style="background: #4B9E67; border-radius: 20px; font-weight: bold;">
+            Add another dog <img class="ms-3" src="assets/images/black-p.png" alt="l">
+          </button>
+        </div>
+
+        <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+          <label style="font-weight: bold;">Vaccinations & Registrations: <span style="color: #E52D27;">*</span></label>
+
+          <div class="row">
+            <div class="col-6">
+              <p>Vaccinated:</p>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">Yes</p>
+                    <input type="radio" name="Vaccinated">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">No</p>
+                    <input type="radio" name="Vaccinated">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <p>Wormed:</p>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">Yes</p>
+                    <input type="radio" name="Wormed">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">No</p>
+                    <input type="radio" name="Wormed">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <p>Neutered:</p>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">Yes</p>
+                    <input type="radio" name="Neutered">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">No</p>
+                    <input type="radio" name="Neutered">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <p>IKC Registered:</p>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">Yes</p>
+                    <input type="radio" name="IKC">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">No</p>
+                    <input type="radio" name="IKC">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+          <label style="font-weight: bold;">Description: <span style="color: #E52D27;">*</span></label>
+          <textarea class="w-100 border-0 p-2" name="" id="" cols="30" rows="10"
+            placeholder="Add description here"></textarea>
+          <p style="text-align: justify; padding-top: 10px; line-height: 1.25;">
+            Share information about how to contact you, any terms and conditions on checking out the dog, when is the
+            dog available for collection, and so on. Describe the canines character, temperament and so on. Try and make
+            your description as informative as possible so viewers can better understand. <strong>Add at least 6
+              sentences about your dog</strong>.
+          </p>
+        </div>
+
+        <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+          <label style="font-weight: bold;">Upload images: <span style="color: #E52D27;">*</span></label>
+
+          <!-- image dropper -->
+          <div class="image-dropper"></div>
+
+          <button class="btn mb-2 px-3 d-flex align-items-center"
+            style="background: #4B9E67; border-radius: 20px; font-weight: bold;">
+            Upload images<img class="ms-3" src="assets/images/black-p.png" alt="l">
+          </button>
+        </div>
+
+        <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+          <label style="font-weight: bold;">Display phone number in your ad : <span style="color: #E52D27;">*</span>
+          </label>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">Yes</p>
+                    <input type="radio" name="phoneww">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <p class="pe-2">No</p>
+                    <input type="radio" name="phoneww">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="terms">
+      <div class="container">
+        <div class="wrapper p-3" style="background: #F4AC79;">
+          <p class="text-center pb-3" style="line-height: 1.25;">
+            <strong>Before you post this advert, please note the following terms and conditions:</strong>
+          </p>
+
+          <div class="d-flex pb-2">
+            <input type="checkbox" name="a" class="me-2">
+            <p>Ads are <strong>non refundable</strong></p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p><strong>You are the owner of the dog(s) </strong> and they are registered in your name. You will post
+              actual photos of your dog(s). </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>Microchips must be Registered to ether
+              <strong>
+                Animark, IKC, Fido or ICC
+              </strong>
+              and be visible on Europetnet.com before ads are published
+              and You need to provide a microchip number for all dog(s),Puppy(s) advertised.
+            </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>Ads cannot be published until dogs are at least
+              <strong>7 weeks old.</strong>Legally puppies must be
+              <strong>8 weeks old</strong> before they are sold / transferred to new owner.
+            </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>In the case you are selling more than 6 or more dogs in a year you are legally required to register with
+              the
+              <strong>
+                DAFM
+              </strong>to be a
+              <strong>
+                Registered seller
+              </strong> and include this registration number in all ads.
+            </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>
+              <strong>
+                Anybody who has 6 or more female dogs over six months of age
+              </strong> and capable of breeding must register under the Dog Breeding Establishment Act of 2010 with
+              their local county council and include this license number in all ads.
+            </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>Your ad
+              <strong>
+                may be shared
+              </strong>to our social media platforms or sister sites for more exposure and interaction with possible
+              buyers.
+              <br>
+              Note: Ads are reviewed in <strong>24 - 48 hours</strong>. Failure to have sufficient or accurate
+              information may delay your ad being published.
+            </p>
+          </div>
+
+          <div class="d-flex pb-2 align-items-start">
+            <input type="checkbox" name="a" class="mt-1 me-2">
+            <p>
+              <strong>
+                I agree to Terms and Conditions
+              </strong>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="d-flex pb-2 justify-content-center pt-3 pb-5">
+          <button class="btn px-5 d-flex align-items-center; "
+            style="background: #4B9E67; border-radius: 20px; font-weight: bold; font-size: 20px;">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer" style="background:#d9ece1">
+    <div class="py-4"></div>
+    <div style="background: url(assets/images/bg-f.png) no-repeat top left/cover;">
+      <div class="py-5"></div>
+      <div class="py-0 py-xxl-5"></div>
+      <div class="py-0 py-xl-5"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <ul class="ps-4">
+              <li>
+                <a href="#" class="f-link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">F.A.Q</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Privacy policy
+                </a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Contact Us</a>
+              </li>
+            </ul>
+
+            <ul class="ps-4 pt-3 d-flex">
+              <li style="background: #fff; border-radius: 2px;" class="me-2">
+                <a href="#"> <img src="assets/images/twitter-svgrepo-com.svg" width="30px" alt="SVG Icon" /></a>
+              </li>
+              <li style="background: red; border-radius: 2px;" class="me-2">
+                <a href="#"> <img class="px-1" src="assets/images/youtube-168-svgrepo-com.svg" width="30px"
+                    alt="SVG Icon" /></a>
+              </li>
+              <li style="background: #fff; border-radius: 2px;" class="me-2">
+                <a href="#"> <img src="assets/images/facebook-color-svgrepo-com.svg" width="30px" alt="SVG Icon" /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-7 text-end">
+            <img class="img-fluid" src="assets/images/footer-removebg-preview.png" alt="Product 1" />
+          </div>
+        </div>
+      </div>
+      <div class="bottom pt-3 pb-4">
+        <img class="img-fluid w-100 my-3 d-md-none" src="assets/images/dog_foot-removebg-preview.png" alt="dfr">
+        <p class="m-0 text-center" style="font-size: 18px;">
+          Copyright 2023 © DogsForSaleIreland, <br> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const collapseNav = document.getElementById('navbarNavDropdown');
+    document.getElementById("trigger").addEventListener('click', () => {
+      collapseNav.classList.toggle('collapse');
+    });
+  </script>
+</body>
+
+</html>

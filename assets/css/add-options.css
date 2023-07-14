@@ -49,3 +49,15 @@ input::placeholder {
     text-align: justify;
     line-height: 1.25;
 }
+
+input[type=radio] {
+    border: 1px solid #fff;
+    background: #ffffff;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type=radio]:checked {
+    background: #14cc4b;
+}

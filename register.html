@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/paw.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <title>Dog Sale || Register</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header" style="padding-bottom: 5px; background: #47a36e !important">
+    <div class="container">
+      <nav class="">
+        <div class="d-flex justify-content-between align-items-center">
+          <button class="py-2 btn btn-post d-flex align-items-center" style="border-radius: 15px;">
+            <span class="me-2" style="color: black;">Post</span>
+            <img src="assets/images/Picture4.png" width="24px" height="24px" alt="no" />
+          </button>
+
+          <img width="180px" src="assets/images/Screenshot_2023-06-24_151017-removebg-preview.png" alt="no" />
+
+          <button class="navbar-toggler border-0" class="navbar-toggler" id="trigger">
+            <img src="assets/images/Picture1.png" width="50px" height="40px" alt="no img" />
+            <br>
+            <span>Menu</span>
+          </button>
+        </div>
+
+        <div class="row g-4 pt-2 pb-3 d-md-none" style="margin-inline: 0px;">
+          <div class="col-6 ps-0">
+            <button class="w-100 btn btn-post-ad1 p-1 rounded-4" style="font-size: 20px;">
+              <img src="assets/images/Picture3.png" width="24px" height="24px" alt="no" /> Login
+            </button>
+          </div>
+          <div class="col-6 pe-0">
+            <button class="navbar-brand w-100 btn btn-post1 p-1 rounded-4" style="font-size: 20px;">
+              <img src="assets/images/Picture2.png" width="24px" height="24px" alt="no" /> SignUp
+            </button>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link odd" href="#">
+                <img src="assets/images/dogi.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                For Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link even" href="#">
+                <img src="assets/images/paww.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                For Stud</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link odd" href="#">
+                <img src="assets/images/exit.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link even" href="#">
+                <img src="assets/images/r.png" alt="s" class="img-fluid" style="max-width: 40px;">
+                Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main style="background: #d8ebe0;">
+    <!-- first display -->
+    <div class="top-f-section">
+      <h3 class="title text-center py-2 mb-3" style="background: #ff914d; font-weight: bold;">
+        <img style="max-width: 40px;" src="assets/images/register.png" alt="qqw">
+        Register
+      </h3>
+    </div>
+
+    <div class="options py-3">
+      <div class="container">
+        <div class="toppp text-center">
+          <div class="d-grid" style="grid-template-columns: repeat(3,1fr); gap:20px">
+            <div class="pagination current">
+              <div class="step-wrap">
+                <h5>Step 1.</h5>
+                <p>Account Registration</p>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="step-wrap">
+                <h5>Step 2.</h5>
+                <p>Email Verification</p>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="step-wrap">
+                <h5>Step 3.</h5>
+                <p>Phone Verification</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-3">
+          <p style="font-size: 20px;">Create an account with us, undergo identity verification, and gain access to
+            connect with other members to
+            find ideal homes or companions for your dogs.</p>
+        </div>
+
+
+        <div class="row">
+          <!-- name -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">First name:</label>
+              <input class="w-100 p-1" type="text" placeholder="First name" required>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Last Name:</label>
+              <input class="w-100 p-1" type="text" placeholder="Last name" required>
+            </div>
+          </div>
+
+          <!-- breed -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Breeder ID:</label>
+              <input class="w-100 p-1" type="text" placeholder="Breeder ID" required>
+              <div class="pt-2">
+                <p style="font-size: 14px; text-align: justify;">
+                  (Registered seller of dogs) Supply a DAFM Registration No.
+                  <strong>(If you are selling or supplying 6 or more dogs in a year) </strong>
+                  You are now required by law, to register immediately with the Department of Agriculture so as to
+                  become a
+                  <strong>Registered Seller of Dogs, </strong>
+                  and include this registration number in all dogs for sale ads.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Address:</label>
+              <input class="w-100 p-1" type="text" placeholder="Address" required>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">City:</label>
+              <input class="w-100 p-1" type="text" placeholder="City" required>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Country:</label>
+              <div class="opt-1">
+                <select class="w-100 border-0 p-1">
+                  <option value="">Country</option>
+                  <option value="">Country 1</option>
+                  <option value="">Country 2</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- telephone -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Phone:</label>
+              <div class="row">
+                <div class="col-4 pe-0">
+                  <div class="opt-2">
+                    <select class="w-100 border-0 text-light" style="background: #4ca673; padding: 4px 6px 5px 6px;">
+                      <option value="">+353</option>
+                      <option value="">Country 1</option>
+                      <option value="">Country 2</option>
+                    </select>
+                  </div>
+
+                </div>
+                <div class="col-8 ps-0">
+                  <input class="w-100 p-1" type="text" placeholder="Phone number" required>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Confirm password:</label>
+              <input class="w-100 p-1" type="password" required>
+            </div>
+          </div>
+
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">E-mail address:</label>
+              <input class="w-100 p-1" type="text" placeholder="E-mail address" required>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Terms:</label>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <input type="checkbox">
+                </div>
+                <div class="ps-1">
+                  <p>I have read and agree to the terms & conditions of DogSale.ie <a href="#" class="forma-link">terms
+                      of service</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Terms:</label>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <input type="checkbox">
+                </div>
+                <div class="ps-1">
+                  <p>Please subscribe to our email list <a href="#" class="forma-link">(Optional)</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center pb-3">
+          <div class="col-md-6">
+            <button class="btn w-100"
+              style="background:#47a36e; border-radius: 15px; font-weight: bold; color: #fff;">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer" style="background:#d9ece1">
+    <div class="py-4"></div>
+    <div style="background: url(assets/images/bg-f.png) no-repeat top left/cover;">
+      <div class="py-5"></div>
+      <div class="py-0 py-xxl-5"></div>
+      <div class="py-0 py-xl-5"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <ul class="ps-4">
+              <li>
+                <a href="#" class="f-link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">F.A.Q</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Privacy policy
+                </a>
+              </li>
+              <li>
+                <a href="#" class="f-link">Contact Us</a>
+              </li>
+            </ul>
+
+            <ul class="ps-4 pt-3 d-flex">
+              <li style="background: #fff; border-radius: 2px;" class="me-2">
+                <a href="#"> <img src="assets/images/twitter-svgrepo-com.svg" width="30px" alt="SVG Icon" /></a>
+              </li>
+              <li style="background: red; border-radius: 2px;" class="me-2">
+                <a href="#"> <img class="px-1" src="assets/images/youtube-168-svgrepo-com.svg" width="30px"
+                    alt="SVG Icon" /></a>
+              </li>
+              <li style="background: #fff; border-radius: 2px;" class="me-2">
+                <a href="#"> <img src="assets/images/facebook-color-svgrepo-com.svg" width="30px" alt="SVG Icon" /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-7 text-end">
+            <img class="img-fluid" src="assets/images/footer-removebg-preview.png" alt="Product 1" />
+          </div>
+        </div>
+      </div>
+      <div class="bottom pt-3 pb-4">
+        <img class="img-fluid w-100 my-3 d-md-none" src="assets/images/dog_foot-removebg-preview.png" alt="dfr">
+        <p class="m-0 text-center" style="font-size: 18px;">
+          Copyright 2023 © DogsForSaleIreland, <br> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const collapseNav = document.getElementById('navbarNavDropdown');
+    document.getElementById("trigger").addEventListener('click', () => {
+      collapseNav.classList.toggle('collapse');
+    });
+  </script>
+</body>
+
+</html>

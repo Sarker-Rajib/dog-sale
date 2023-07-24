@@ -9,7 +9,7 @@
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/dashboard.css">
-  <title>Dog Sale || Login</title>
+  <title>Dog Sale || Phone Verification</title>
 </head>
 
 <body>
@@ -77,41 +77,74 @@
     <!-- first display -->
     <div class="top-f-section">
       <h3 class="title text-center py-2 mb-3" style="background: #ff914d; font-weight: bold;">
-        <img style="max-width: 40px;" src="assets/images/login.png" alt="qqw">
-        Login
+        <img style="max-width: 25px;" src="assets/images/pho.png" alt="qqw">
+        Phone Verification
       </h3>
     </div>
 
-    <!-- profile details -->
-    <div class="container">
-      <div class="pt-3">
-        <form>
-          <div class="row gy-2 justify-content-center">
+    <div class="options py-3" style="padding: 0 10px;">
+      <div class="container">
+        <div class="toppp text-center">
+          <div class="d-grid" style="grid-template-columns: repeat(3,1fr); gap:20px">
+            <div class="pagination">
+              <div class="step-wrap">
+                <h5>Step 1.</h5>
+                <p>Account Registration</p>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="step-wrap">
+                <h5>Step 2.</h5>
+                <p>Email Verification</p>
+              </div>
+            </div>
+            <div class="pagination current">
+              <div class="step-wrap">
+                <h5>Step 3.</h5>
+                <p>Phone Verification</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <div class="col-md-6">
-              <div class="mb-3">
-                <label>Email</label>
-                <input type="email" placeholder="Your email">
-                <span style="color: #e16860;">Your unique email</span>
+
+        <div class="pt-4">
+          <div class="row justify-content-center py-3">
+            <div class="col-md-7">
+              <div class="py-3 c-phone">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="flex-1">
+                    <h4 class="text-center" style="cursor: pointer;">Click here to <br>
+                      Verify your phone number</h4>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <img style="max-width: 60px;" src="assets/images/phooooooo2.png" alt="phone">
+                  </div>
+                </div>
               </div>
 
-              <div class="mb-3">
-                <label>Password</label>
-                <input type="password" placeholder="Your password">
-                <span style="color: #e16860;">Your strong password</span>
-              </div>
+            </div>
+          </div>
+        </div>
 
-              <div class="mt-4">
-                <button class="btn" style="padding: 5px 25px; margin-right: 30px; 
-                  background: #40a069; border-radius: 18px; font-size: 20px;">Login</button>
-                <span><a href="#" style="color: #60b8ea; text-decoration: none;">Forgot password</a></span>
+        <div class="row justify-content-center py-3">
+          <!-- name -->
+          <div class="col-md-7">
+            <div style="background: #F4AC79; padding: 10px 20px; margin-bottom: 20px;">
+              <label style="font-weight: bold;">Enter phone verification code :</label>
+              <input class="w-100 p-1" type="text" placeholder="Verification code" required>
+              <div class="text-center pt-1">
+                <p style="font-size: 16px;">Didn`t get code? <a href="#" style="color: #47a36e;">Resend now</a></p>
               </div>
             </div>
 
+            <button class="btn w-100"
+              style="background:#47a36e; border-radius: 15px; color: #fff; font-size: 20px;">Verify Now</button>
           </div>
-        </form>
+        </div>
       </div>
     </div>
+
   </main>
 
 

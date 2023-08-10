@@ -72,7 +72,7 @@ li {
 
 .cho-option .select-m {
   background: #ff914d !important;
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   position: relative;
   font-size: 22px;
 }
@@ -87,7 +87,7 @@ li {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #000000;
+  border-top: 10px solid #ffffff;
 }
 
 .btn-search {
@@ -171,8 +171,12 @@ li {
 
 .footer .f-link {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   font-size: 20px;
+}
+
+.footer p {
+  color: #ffffff;
 }
 
 .footer .f-link:hover {

@@ -160,3 +160,32 @@ select {
     text-align: justify;
     line-height: 1.12;
 }
+
+.status{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status.online{
+    background: #008037;
+}
+
+.person{
+    cursor: pointer;
+}
+
+.message.me .text{
+    background: #0080372a;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.message.cl .text{
+    background: #BAC6CD;
+    padding: 5px;
+    margin-right: 5px;
+}
